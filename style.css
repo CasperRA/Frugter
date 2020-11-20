@@ -12,7 +12,7 @@
 h1 {
     margin-top: 2rem;
     text-align: center;
-    font-size: 2em;
+    font-size: 3.2em;
 }
 
 .intro {
@@ -24,7 +24,7 @@ h1 {
     display: block;
     margin: 0 auto;
     margin-top: 2rem;
-    width: 50%;
+    max-width: 850px;
 }
 
 .login {
@@ -35,25 +35,26 @@ h1 {
 .login h2 {
     text-align: center;
     margin: 1rem 0;
+    font-size: 1.8em;
 }
 
 .login input {
-    width: 12rem;
+    width: 16rem;
     text-align: center;
     margin: 0 auto;
     margin-top: 1rem;
-    height: 1.2rem;
+    height: 2rem;
     border-radius: 20px;
     border-style: solid;
     border-color: var(--fruit-primary);
 }
 
 .login button {
-    width: 10rem;
+    width: 12rem;
     margin: 0 auto;
     margin-top: 1.5rem;
     border-radius: 20px;
-    height: 2rem;
+    height: 2.4rem;
     background-color: var(--fruit-primary);
     border: none;
     color: var(--fruit-tertiary);
@@ -71,8 +72,11 @@ h1 {
     flex-direction: column;
 }
 
-.gallery h2 {
+.gallery .linespacing {
     margin-top: 2rem;
+}
+
+.gallery h2 {
     text-align: center;
     font-size: 2.4em;
 }
@@ -81,11 +85,42 @@ h1 {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .grid-gallery img {
-    max-width: 350px;
+    max-width: 600px;
     margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.videmere {
+    margin-top: 6rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.videmere h2 {
+    font-size: 2.4em;
+}
+
+.videmere p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.grid-some {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid-some img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.grid-some .imgface {
+    max-width: 150px;
     margin-top: 1.5rem;
 }
