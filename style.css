@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+:root {
+    --fruit-primary:#7ac313;
+    --fruit-secondary:#EAC738;
+    --fruit-tertiary:#FB3636;
+}
+
 h1 {
     margin-top: 2rem;
     text-align: center;
@@ -31,12 +37,31 @@ h1 {
 }
 
 .login input {
-    width: 8rem;
+    width: 12rem;
+    text-align: center;
     margin: 0 auto;
+    margin-top: 1rem;
+    height: 1.2rem;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--fruit-primary);
+    
 }
 
 .login button {
     width: 10rem;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    height: 2rem;
+    background-color: var(--fruit-primary);
+    border: none;
+    color: var(--fruit-tertiary);
+    font-weight: 800;
+}
+
+.login a {
+    margin: 0 auto;
+    font-weight: bold;
+    
 }
