@@ -4,9 +4,9 @@
 }
 
 :root {
-    --fruit-primary:#7ac313;
-    --fruit-secondary:#EAC738;
-    --fruit-tertiary:#FB3636;
+    --fruit-primary: #58e658;
+    --fruit-secondary: #EAC738;
+    --fruit-tertiary: #FB3636;
 }
 
 h1 {
@@ -14,7 +14,8 @@ h1 {
     text-align: center;
     font-size: 2em;
 }
-.intro  {
+
+.intro {
     display: flex;
     flex-direction: column;
 }
@@ -45,7 +46,6 @@ h1 {
     border-radius: 20px;
     border-style: solid;
     border-color: var(--fruit-primary);
-    
 }
 
 .login button {
@@ -63,5 +63,29 @@ h1 {
 .login a {
     margin: 0 auto;
     font-weight: bold;
-    
+    margin-top: 1rem;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery h2 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.4em;
+}
+
+.grid-gallery {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-gallery img {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
 }
